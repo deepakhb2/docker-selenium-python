@@ -7,7 +7,7 @@ The support for following browsers is added:
 2. Firefox - will be added soon.
 
 ## Example Script
-The repository for puppeteer sample test example [python-ui-automation](https://github.com/deepakhb2/python-ui-automation)
+The repository for selenium python sample test example [python-ui-automation](https://github.com/deepakhb2/python-ui-automation)
 
 ## Tags 
 python-selenium-python:latest
