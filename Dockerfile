@@ -10,7 +10,8 @@ RUN apt install -y ./google-chrome-stable_current_amd64.deb
 # Couldn't load XPCOM.
 RUN apt-get install -y libdbus-glib-1-2
 
-RUN wget wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/65.0/linux-x86_64/en-US/firefox-65.0.tar.bz2
+ARG FIREFOX_VERSION=65.0
+RUN wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/$FIREFOX_VERSION/linux-x86_64/en-US/firefox-$FIREFOX_VERSION.tar.bz2
 RUN tar xvf firefox*.tar.bz2
 
 RUN pip install selenium
